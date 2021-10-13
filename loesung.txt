@@ -1,0 +1,6 @@
+Angenommen wir befinden uns im Homeverzeichnis, also /home/alice. Dabei gibt /alice den Benutzernamen wieder. 
+Dann wäre es zunächst sinnvoll zum genannten Pfad /home/alice/progra/Blatt01 zu navigieren. Dies erreichen wir im Homeverzeichnis mit dem Befehl "cd progra/Blatt01".
+Im entsprechenden Pfad angekommen, können wir nun unsere Quellcode-Datei Hello.java compilieren, die sich nach dem Verzeichnis "/home/alice/progra/Blatt01" wohl im Ordner Blatt01 befindet.
+Dies erreichen wir mit dem Befehl "javac Hello.java". Dieser prüft den Code auf Fehler und übersetzt/compiliert den Code in Maschinensprache, also in Nullen und Einsen.
+Dadurch weiss der Computer, was es ausgeben und machen muss, falls wir das Programm ausführen möchten. Das Ausführen erfolgt dann mit dem Befehl "java Hello". 
+Der Computer führt dann die Befehle aus dem Code aus und gibt das Ergebnis aus.
